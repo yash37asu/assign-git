@@ -1,4 +1,16 @@
 • What is a gitignore file and what should it include for a Java project?
+--> It helps in ignorring the unnecceary files like node modules, some of text amd media files created to check 
+on local environment. For any java project gitignore should include ".class" files. .
+
 • What does fast-forward in git mean?
+--> If Master has not diverged, instead of creating a new commit, git will just point master to the latest 
+commit of the feature branch. This is a “fast forward.” SO simply there won't be any "merge commit" in fast-forwarding merge.
+
 • Why should you have different branches?
+--> Whenever multiple people are working on a same project it is a good practice that each developer works on seperate 
+branch and each commit is made on the basis of task assigned and then regularly updates their branch 
+with the developer branch. Ideally a developer branch should be made where each developer pull requests 
+their changes and as a stable tested version gets ready it should be merged with master.
+
 • In a project how many remote Git repositories do you usually have?
+--> A git project can have as many as remote git repositories just one condition that the names are different.
